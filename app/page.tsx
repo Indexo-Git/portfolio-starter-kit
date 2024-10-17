@@ -1,21 +1,24 @@
-import { BlogPosts } from 'app/components/posts'
 
 export default function Page() {
+
+  const today = new Date();
+  const birthday = new Date(1990, 5, 10);
+  const start = new Date(2015,4,13)
+  const diffforAge = today.valueOf() - birthday.valueOf();
+  const diffExp = today.valueOf() - start.valueOf();
+        
+  const age = Math.floor(diffforAge / 31536000000);
+  const experience = Math.floor(diffExp / 31536000000);
+
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+      Jesus Vergara-Cortes
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
-      </p>
-      <div className="my-8">
-        <BlogPosts />
-      </div>
+       {` Hello, I'm a Software Engineer with over ${ experience } years of expertise in full-stack and front-end web development, seeking a position 
+        to collaborate with talented Software Engineers and UI/UX designers in building high-quality, modern web experiences using emerging technologies.`}
+        </p>
     </section>
   )
 }

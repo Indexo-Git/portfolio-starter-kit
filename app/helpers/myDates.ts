@@ -2,7 +2,7 @@
 const MS_PER_YEAR = 31536000000; // milliseconds in a year
 
 // Helper function to calculate years of difference
-const calculateYearsDifference = (startDate, endDate) => {
+const calculateYearsDifference = (startDate: Date, endDate: Date): number => {
   const diffInMs = endDate.getTime() - startDate.getTime();
   return Math.floor(diffInMs / MS_PER_YEAR);
 }
@@ -13,5 +13,5 @@ const birthday = new Date(1990, 5, 10); // Note: Months in JavaScript's Date are
 const start = new Date(2015, 4, 13); // May is represented as 4
 
 // Exported constants
-export const age = calculateYearsDifference(birthday, today);
-export const experience = calculateYearsDifference(start, today);
+export const age: number = calculateYearsDifference(birthday, today);
+export const experience: number = calculateYearsDifference(start, today);

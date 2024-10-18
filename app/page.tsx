@@ -1,14 +1,6 @@
+import { experience } from "./helpers"
 
 export default function Page() {
-
-  const today = new Date();
-  const birthday = new Date(1990, 5, 10);
-  const start = new Date(2015,4,13)
-  const diffforAge = today.valueOf() - birthday.valueOf();
-  const diffExp = today.valueOf() - start.valueOf();
-        
-  const age = Math.floor(diffforAge / 31536000000);
-  const experience = Math.floor(diffExp / 31536000000);
 
   return (
     <section>

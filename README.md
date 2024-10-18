@@ -1,4 +1,4 @@
-# Portfolio Blog Starter
+# V Portfolio
 
 This is a porfolio site template complete with a blog. Includes:
 
@@ -11,9 +11,14 @@ This is a porfolio site template complete with a blog. Includes:
 - Vercel Speed Insights / Web Analytics
 - Geist font
 
-## Demo
+## Source
 
 https://portfolio-blog-starter.vercel.app
+
+## Demo
+
+https://portfolio-starter-kit-j-vergara.vercel.app/
+
 
 ## How to Use
 

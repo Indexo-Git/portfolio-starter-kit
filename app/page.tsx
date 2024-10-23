@@ -1,3 +1,4 @@
+import { IoBriefcaseOutline, IoSchoolOutline } from "react-icons/io5"
 import { DegreesList } from "./components/degrees"
 import { WorkExperiences } from "./components/experiences"
 import { experience } from "./helpers"
@@ -14,11 +15,17 @@ export default function Page() {
           </p>
       </section>
       <section className="mb-10">
-        <h2 className="mb-2 text-2xl font-semibold tracking-tighter">Education</h2>
+        <h2 className="mb-2 text-2xl font-semibold tracking-tighter">
+          <IoSchoolOutline className="inline-block w-5 h-5 mr-3" />
+          Education
+        </h2>
         <DegreesList />
       </section>
       <section className="mb-10">
-        <h2 className="mb-2 text-2xl font-semibold tracking-tighter">Work Experience</h2>
+        <h2 className="mb-2 text-2xl font-semibold tracking-tighter">
+          <IoBriefcaseOutline className="inline-block w-5 h-5 mr-3" />
+          Work Experience
+          </h2>
         <WorkExperiences />
       </section>
     </>

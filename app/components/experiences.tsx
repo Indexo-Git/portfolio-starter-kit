@@ -56,7 +56,7 @@ export const WorkExperiences = () => {
             experiences.map((experience, index) => (
                 <div className="border-b">
                     <ul role="list" className="">
-                        <li  className="flex justify-between gap-x-6 pt-5">
+                        <li className="flex justify-between gap-x-6 pt-5">
                             <div className="flex min-w-0 gap-x-4">
                             <div className="min-w-0 flex-auto">
                                 <p className="font-semibold leading-6">{ experience.role }</p>

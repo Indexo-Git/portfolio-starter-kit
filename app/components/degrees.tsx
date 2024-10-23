@@ -33,7 +33,7 @@ export const DegreesList = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-x-4">
-                  <div className="flex flex-col shrink-0 items-end">
+                  <div className="hidden shrink-0 sm:flex sm:flex-col sm:items-end items-end">
                     <p className=" leading-6">{ location }</p>
                     <p className="mt-1 text-xs leading-5 text-gray-500">
                       <time dateTime={ graduation }>{ graduation }</time>

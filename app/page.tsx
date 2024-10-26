@@ -2,10 +2,15 @@ import { IoBriefcaseOutline, IoSchoolOutline } from "react-icons/io5"
 import { DegreesList } from "./components/degrees"
 import { WorkExperiences } from "./components/experiences"
 import { experience } from "./helpers"
+import Spline from "@splinetool/react-spline"
 
 export default function Page() {
   return (
     <>
+        <Spline 
+              id='logo' 
+              scene="https://prod.spline.design/2eiqtfoTbtf1Q8XF/scene.splinecode" 
+              />
        <section className="mb-10">
         <h1 className="mb-8 text-3xl font-semibold tracking-tighter">
           Jesus Vergara-Cortes

@@ -10,9 +10,9 @@ export const LookAt = () => {
     const [isLoaded, setIsLoaded] = useState(false);
 
     return (
-        <div style={{ height: "288px" }}>
+        <>
             {!isLoaded && (
-                <div className="py-4" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <div className="py-4" style={{ height: "288px", display: "flex", alignItems: "center", justifyContent: "center" }}>
                     <Logo height="220px" />
                 </div>
             )}
@@ -22,6 +22,6 @@ export const LookAt = () => {
                 onLoad={() => setIsLoaded(true)}
                 />
             </Suspense>
-        </div>
+        </>
     )
 }

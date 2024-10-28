@@ -150,8 +150,14 @@ table {
 }
 /* Logo style */
 
-#logo{
- 
+.spline-large {
+  height: 288px; /* Desktop height */
+  width: 100%;
+}
+
+.spline-small {
+  height: 182; /* Mobile height */
+  width: 100%;
 }
 
 .logo-fil {

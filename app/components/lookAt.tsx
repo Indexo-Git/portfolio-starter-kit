@@ -3,16 +3,16 @@
 import { lazy, Suspense, useState } from "react"
 import { Logo } from "./logo";
 
-const Spline = lazy(() => import('@splinetool/react-spline'));  
+const Spline = lazy(() => import("@splinetool/react-spline"));
 
 export const LookAt = () => {
 
     const [isLoaded, setIsLoaded] = useState(false);
 
     return (
-        <section>
+        <section className="spline-large spline-small" style={{ alignItems: "center"}}>
             {!isLoaded && (
-                <div className="py-5 md:spline-large sm:spline-small" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <div className="md:py-5 sm:py-0" style={{ display: "flex", justifyContent: "center" }}>
                     <Logo height="180px" />
                 </div>
             )}

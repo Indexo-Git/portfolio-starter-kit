@@ -149,15 +149,22 @@ table {
   text-wrap: balance;
 }
 /* Logo style */
-
-.spline-large {
-  height: 288px; /* Desktop height */
+.spline-large,.spline-small {
   width: 100%;
 }
 
-.spline-small {
-  height: 182; /* Mobile height */
-  width: 100%;
+@media (min-width: 768px) {
+  /* Medium and up */
+  .spline-large {
+    height: 288px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Small and down */
+  .spline-small {
+    height: 182px;
+  }
 }
 
 .logo-fil {

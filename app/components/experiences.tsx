@@ -9,8 +9,8 @@ export const WorkExperiences = () => {
             duration: "Jan 2022 - Oct 2024",
             achievements: [
                 "Designed, planned, and built a custom marketplace using React/Next.js with TypeScript and PostgreSQL, integrating payment APIs such as PayPal, Stripe, Mercado Pago, and Open Pay to serve both U.S. and Latin American markets.",
-                "Designed and developed scalable websites, addressing client needs, engaging their customers, and reducing friction by optimizing processes.",
-                "Improved processes and implemented technical solutions using object-oriented scripting languages like JavaScript/TypeScript and the MERN stack, providing tools to enhance client productivity and customer satisfaction.",
+                "Migration of headless CMS from PHP/Laravel to React/Next.js to deliver content-optimized web projects, implementing UI components and SEO best practices.",
+                "Delivered innovative software solutions using object-oriented scripting languages like JavaScript/TypeScript and well-known React workflows, ensuring robustness and introducing new technologies and tools to small businesses.",
                 "Actively collaborate with cross-functional teams to identify and develop product or service enhancements through software development, balancing strategic thinking with effective problem-solving."
             ]
         },
@@ -20,10 +20,10 @@ export const WorkExperiences = () => {
             location: "Veracruz, Mexico",
             duration: "Jan 2021 - Oct 2022",
             achievements: [
-                "Developed, enhanced, and supported custom CMS platforms using PHP/Laravel and MySQL, focusing on fast content delivery by automating content creation with the OpenAI API.",
+                "Designed, developed, deployed, and maintained a custom CMS using PHP/Laravel and MySQL, optimizing SEO by implementing data tracking and utilizing web analytics to measure performance, helping business owners make smarter decisions.",
                 "Reviewed functional requirements from clients, scheduled developments, and delivered high-performance websites that met client needs while adhering to usability, security, and accessibility standards.",
                 "Developed and maintained CI/CD pipelines to automate testing, building, and deployment processes, ensuring efficient delivery of software solutions to customers.",
-                "Partnered with senior engineers to refine and enhance technical specifications, ensuring alignment with project goals and business needs."
+                "Conducted SEO analysis and performance testing to identify improvements in UX, information structure, and overall communication strategy while adhering to best practices."
             ]
         },
         {
@@ -33,7 +33,9 @@ export const WorkExperiences = () => {
             duration: "Jan 2018 - Dec 2020",
             achievements: [
                 "Designed, developed, deployed, and maintained a comprehensive client portal using PHP/Laravel and MySQL, allowing users to track leads in real-time through integrated REST APIs. Integrated data sources and implemented visually engaging modules to ensure data accuracy throughout the system.",
-                "Developed both backend and frontend software for a custom SEO internal tool using Angular, Node.js/Express, and MongoDB. Participated in the entire lifecycle, from development and testing to fixes and improvements, ensuring the code was reliable, maintainable, and extendable."
+                "Developed both backend and frontend software for a custom SEO internal tool using Angular, Node.js/Express, and MongoDB. Participated in the entire lifecycle, from development and testing to fixes and improvements, ensuring the code was reliable, maintainable, and extendable.",
+                "Conducted SEO analysis and performance testing to identify improvements in UX, information structure, and overall communication strategy while adhering to best practices."
+
             ]
         },
         {
@@ -42,10 +44,10 @@ export const WorkExperiences = () => {
             location: "Courbevoie, France",
             duration: "May 2015 - Dec 2017",
             achievements: [
-                "Collaborated with professionals from multiple disciplines to craft seamless, intuitive user web experiences, applying design principles and patterns.",
-                "Oversaw client projects with effective communication, from brief to final delivery, transforming requirements into fully functional, optimized websites while ensuring timelines, quality standards, and meticulous attention to detail.",
-                "Developed custom WordPress solutions by optimizing themes and configurations to meet client-specific needs, enhancing website functionality and SEO performance through proficiency with front-end technologies such as CSS, JS, and HTML.",
-                "Contributed to the development and improvement of the agency's services from graphic design to web design, establishing a new revenue stream that significantly impacted the company's digital growth and supported ongoing professional development and learning."
+                "Contributed to the expansion of the agency's services from graphic design and marketing to web design, establishing a new revenue stream that significantly impacted the company's digital growth and supported ongoing professional development and learning.",
+                "Developed custom WordPress solutions by optimizing themes and configurations to meet client-specific needs, enhancing user experience and SEO performance through proficiency with front-end technologies such as HTML, CSS, and JavaScript.",
+                "Collaborated with other developers and cross-functional partners on projects to craft visually stunning and user-friendly web experiences, applying design principles and patterns.",
+                "Communicated effectively with stakeholders to gather requirements, provide updates, and resolve issues, delivering technical troubleshooting and support."
             ]
         }
     ]

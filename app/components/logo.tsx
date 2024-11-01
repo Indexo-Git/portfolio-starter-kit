@@ -6,6 +6,7 @@ export const Logo = ({ height }) => {
         xmlns="http://www.w3.org/2000/svg" 
         viewBox="0 0 264.98 227.35"
         height={ height }
+        className="md:mt-5"
         >
         <defs>
             <linearGradient id="logo-gradient" gradientUnits="userSpaceOnUse" x1="0" y1="113.68" x2="264.98" y2="113.68">

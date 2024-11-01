@@ -15,7 +15,7 @@ export default function Page() {
           Jesus Vergara-Cortes
         </h1>
         <p className="mb-4">
-        {` Hello, I'm a Software Engineer with over ${ experience } years of expertise in full-stack and front-end web development.`}
+        {` Hello, I'm a Web Developer with over ${ experience } years of expertise in full-stack development.`}
           </p>
       </section>
       <section className="mb-10">
